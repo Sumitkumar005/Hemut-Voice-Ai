@@ -1,0 +1,78 @@
+# Driver Status
+class DriverStatus:
+    ACTIVE = "ACTIVE"
+    INACTIVE = "INACTIVE"
+    ON_LEAVE = "ON_LEAVE"
+
+
+# Truck Status
+class TruckStatus:
+    AVAILABLE = "AVAILABLE"
+    IN_TRANSIT = "IN_TRANSIT"
+    MAINTENANCE = "MAINTENANCE"
+    OUT_OF_SERVICE = "OUT_OF_SERVICE"
+
+
+# Truck Types
+class TruckType:
+    FLATBED = "FLATBED"
+    REFRIGERATED = "REFRIGERATED"
+    DRY_VAN = "DRY_VAN"
+    TANKER = "TANKER"
+    LOWBOY = "LOWBOY"
+
+
+# Load Status
+class LoadStatus:
+    ASSIGNED = "ASSIGNED"
+    LOADING = "LOADING"
+    LOADED = "LOADED"
+    IN_TRANSIT = "IN_TRANSIT"
+    DELIVERED = "DELIVERED"
+    CANCELLED = "CANCELLED"
+
+
+# Call Status
+class CallStatus:
+    INITIATED = "INITIATED"
+    RINGING = "RINGING"
+    ANSWERED = "ANSWERED"
+    COMPLETED = "COMPLETED"
+    FAILED = "FAILED"
+    BUSY = "BUSY"
+    NO_ANSWER = "NO_ANSWER"
+
+
+# Delay Reasons
+class DelayReason:
+    WAREHOUSE_DELAY = "WAREHOUSE_DELAY"
+    MECHANICAL_ISSUE = "MECHANICAL_ISSUE"
+    WEATHER = "WEATHER"
+    PAPERWORK = "PAPERWORK"
+    TRAFFIC = "TRAFFIC"
+    LOADING_EQUIPMENT = "LOADING_EQUIPMENT"
+    DRIVER_UNAVAILABLE = "DRIVER_UNAVAILABLE"
+    OTHER = "OTHER"
+
+
+# Status Types
+class StatusType:
+    LOADED = "LOADED"
+    NOT_LOADED = "NOT_LOADED"
+    DELAYED = "DELAYED"
+    ISSUE = "ISSUE"
+
+
+# Priority Levels
+class PriorityLevel:
+    LOW = "LOW"
+    NORMAL = "NORMAL"
+    HIGH = "HIGH"
+    URGENT = "URGENT"
+
+
+# Sentiment
+class Sentiment:
+    POSITIVE = "POSITIVE"
+    NEUTRAL = "NEUTRAL"
+    NEGATIVE = "NEGATIVE"

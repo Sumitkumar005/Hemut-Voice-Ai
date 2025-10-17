@@ -1,0 +1,16 @@
+INSERT INTO drivers (driver_name, phone_number, license_number, email, status, hire_date) VALUES
+('John Smith', '+15551234567', 'DL001234', 'john.smith@trucking.com', 'ACTIVE', '2023-01-15'),
+('Sarah Johnson', '+15551234568', 'DL001235', 'sarah.johnson@trucking.com', 'ACTIVE', '2023-02-20'),
+('Mike Davis', '+15551234569', 'DL001236', 'mike.davis@trucking.com', 'ACTIVE', '2023-03-10'),
+('Emily Brown', '+15551234570', 'DL001237', 'emily.brown@trucking.com', 'ACTIVE', '2023-04-05'),
+('David Wilson', '+15551234571', 'DL001238', 'david.wilson@trucking.com', 'ACTIVE', '2023-05-12'),
+('Lisa Anderson', '+15551234572', 'DL001239', 'lisa.anderson@trucking.com', 'ACTIVE', '2023-06-08'),
+('James Taylor', '+15551234573', 'DL001240', 'james.taylor@trucking.com', 'ACTIVE', '2023-07-15'),
+('Jennifer Martinez', '+15551234574', 'DL001241', 'jennifer.martinez@trucking.com', 'ACTIVE', '2023-08-20'),
+('Robert Garcia', '+15551234575', 'DL001242', 'robert.garcia@trucking.com', 'ACTIVE', '2023-09-10'),
+('Maria Rodriguez', '+15551234576', 'DL001243', 'maria.rodriguez@trucking.com', 'ACTIVE', '2023-10-05'),
+('William Lee', '+15551234577', 'DL001244', 'william.lee@trucking.com', 'ACTIVE', '2023-11-12'),
+('Patricia White', '+15551234578', 'DL001245', 'patricia.white@trucking.com', 'ACTIVE', '2023-12-01'),
+('Thomas Harris', '+15551234579', 'DL001246', 'thomas.harris@trucking.com', 'ON_LEAVE', '2022-01-10'),
+('Linda Clark', '+15551234580', 'DL001247', 'linda.clark@trucking.com', 'ACTIVE', '2022-02-15'),
+('Christopher Lewis', '+15551234581', 'DL001248', 'chris.lewis@trucking.com', 'ACTIVE', '2022-03-20');
