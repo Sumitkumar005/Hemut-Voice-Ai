@@ -6,7 +6,7 @@ A comprehensive trucking and logistics management system with AI-powered status 
 
 This project consists of a FastAPI backend and React frontend for managing drivers, trucks, loads, and automated status updates through VAPI integration.
 
-## Getting Started
+## Getting Started!
 
 1. Backend setup: See `backend/README.md`
 2. Frontend setup: See `frontend/README.md`
